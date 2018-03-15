@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Gabby TheBaddie Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Courgette|Kaushan+Script" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+    .row.content {height: 1500px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-color: pink;
+      height: 100%;
+    }
+    body {
+	 font-family: 'Courgette', cursive;
+	 font-size: 20px;
+	 background: purple;
+	 
+    }
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #5;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height: auto;} 
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Home</a>
+    <a href="https://soundcloud.com" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Music</a>
+    <a href="https://www.apple.com/shop/buy-iphone/iphone-7" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Iphones</a>
+    <a href="http://ngm.nationalgeographic.com/2008/03/animal-minds/virginia-morell-text" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Animals</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">More <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="https://en.wikipedia.org/wiki/Cardi_B" class="w3-bar-item w3-button">Cadi B</a>
+        <a href="http://www.vh1.com/news/333306/things-to-know-about-dreamdoll/" class="w3-bar-item w3-button">Dream Doll</a>
+        <a href="https://www.famousbirthdays.com/people/queenn-naija.html" class="w3-bar-item w3-button">Queen Naija </a>
+      </div>
+    </div>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#band" class="w3-bar-item w3-button w3-padding-large">band</a>
+  <a href="#tour" class="w3-bar-item w3-button w3-padding-large"></a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large">CONTACT</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large">MERCH</a>
+</div>
+
+
+
+<div class="container-fluid">
+  <div class="row content">
+    <div class="col-sm-3 sidenav">
+      <h4>Gabby's Blog~</h4>
+      <ul class="nav nav-pills nav-stacked">
+        <li class="active"><a href="#section1">Home</a></li>
+        <li><a href="https://www.britannica.com/topic/family-kinshiphttps://www.britannica.com/topic/family-kinsh">Family</a></li>
+        <li><a href="https://www.today.com/food">Food</a></li>
+        <li><a href="http://friends.wikia.com/wiki/Friends_Wiki">Friends</a></li>
+      </ul><br>
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Search Blog..">
+        <span class="input-group-btn">
+          <button class="btn btn-default" type="button">
+            <span class="glyphicon glyphicon-search"></span>
+          </button>
+        </span>
+      </div>
+    </div>
+
+    <div class="col-sm-9">
+      <h4><small>RECENT POSTS</small></h4>
+      <hr>
+      <h2>Love To Play Softball</h2>
+      <h5><span class="glyphicon glyphicon-time"></span> Post by Whisperdale , March 1, 2018.</h5>
+      <h5><span class="label label-danger">Sport</span> <span class="label label-primary"></span></h5><br>
+      <p> I love to play sports because it really make me feel great about myself, and make me feel stress free. my favorite sport i love to play is softball its a great loving and amazing fun sport where you catch and hit a softball to amke yur team to win. like its so fun with my softball team and great feelings when i play with all my girls.</p>
+      <br><br>
+      
+      <h4><small>RECENT POSTS</small></h4>
+      <hr>
+      <h2>Starting To Like Blogging!</h2>
+      <h5><span class="glyphicon glyphicon-time"></span> Post by Pretty Kimmy , Febuary 28, 2018.</h5>
+      <h5><span class="label label-success">Life</span></h5><br>
+      <p>starting a new thing is not esay but this is nice and esay ,really like it because the way things work on this and its fun. youcan write anything on it and whatever u think about or whats going on that maybe your family should know about, it might be about something important or not but still my point is i love this ! really hapy and it  is fun.</p>
+      <hr>
+
+      <h4>Leave a Comment:</h4>
+      <form role="form">
+        <div class="form-group">
+          <textarea class="form-control" rows="3" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-success">POST</button>
+      </form>
+      <br><br>
+      
+      <p><span class="badge">2</span> Comments:</p><br>
+      
+      <div class="row">
+        <div class="col-sm-2 text-center">
+          <img src="https://s1.ticketm.net/tm/en-us/dam/a/c67/c47d52e9-ba11-460c-8694-a70d58f09c67_448831_CUSTOM.jpg" class="img-circle" height="65" width="65" alt="Avatar">
+        </div>
+        <div class="col-sm-10">
+          <h4>Rebecca <small>March 1, 2018, 9:12 PM</small></h4>
+          <p>Keep doing what you gotta do, dead love on how you love playing a sport that can help you from not being stressed u and be making you feel great about ur self ! do what you gotta do baby girl really proud of you.</p>
+          <br>
+        </div>
+        <div class="col-sm-2 text-center">
+          <img src="https://em.wattpad.com/4684b25016ee9f21ace4c6dc046e89ce90d16b9c/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f596f4d45766e74335050695369673d3d2d372e313530656366353434373837663739663938313230363839322e6a7067?s=fit&w=720&h=720" class="img-circle" height="65" width="65" alt="Avatar">
+        </div>
+        <div class="col-sm-10">
+          <h4>Amanda <small>March 1, 2018, 8:25 PM</small></h4>
+          <p>yesss girl yoeu totally right blogging now is the thing like is great so you can know how your family doing and stuff like its fun to find out about new people and just have fun by blogging about yur day.</p>
+          <br>
+          <p><span class="badge">1</span> Comment:</p><br>
+          <div class="row">
+            <div class="col-sm-2 text-center">
+              <img src="https://www.celebfeatures.com/wp-content/uploads/2017/12/DreamDoll.jpg" class="img-circle" height="65" width="65" alt="Avatar">
+            </div>
+            <div class="col-xs-10">
+              <h4>MIlly <small>March 1, 2018, 8:28 PM</small></h4>
+              <p>forealll girl like i said the same thing about it.like its so much fun and nice.</p>
+              <br>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid">
+  <p>Hope You Have A Nice Day !</p>
+</footer>
+
+</body>
+</html>
